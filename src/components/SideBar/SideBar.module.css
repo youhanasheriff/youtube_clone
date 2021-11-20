@@ -1,0 +1,43 @@
+.side_bar {
+	background-color: #202020;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	padding: 5px 0px;
+	width: 220px;
+}
+.menu_item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+	height: 40px;
+}
+
+.menu_item:hover {
+	background-color: #373737;
+}
+.bg_color {
+	background-color: #373737;
+}
+.bg_color:hover {
+	background-color: #636363;
+}
+
+.menu_icon {
+	font-size: 20px;
+	margin-inline: 15px;
+}
+.menu_text {
+	font-size: 14px;
+}
+
+.divider {
+	margin-block: 5px;
+	padding-inline: 2px;
+	height: 0.5px;
+	background-color: white;
+}

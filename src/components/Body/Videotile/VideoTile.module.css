@@ -1,0 +1,64 @@
+.container {
+	height: 13vw;
+	width: 23vw;
+	max-width: 18rem;
+	max-height: 11rem;
+	margin: 1.3rem;
+	cursor: pointer;
+	margin-bottom: 5rem;
+}
+
+.img_container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.img {
+	height: 100%;
+	width: 100%;
+}
+.img_cover {
+	position: absolute;
+	inset: 0;
+	height: 100%;
+	width: 100%;
+}
+.img_cover:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.video_desc {
+	display: flex;
+	height: 45px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.channel_img {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.sub_para {
+	display: flex;
+	font-size: 12px;
+}
+
+.title {
+	font-weight: 700;
+}
+
+.channel_name {
+	margin-top: 6px;
+	font-size: 12px;
+}
+
+.sub_para {
+	font-size: 12px;
+}
+.sub_para1 {
+	padding-right: 3px;
+}
+.sub_para2 {
+	padding-left: 3px;
+}
